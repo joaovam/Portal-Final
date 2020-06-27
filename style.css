@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: #28c997;
+}
+a:hover {
+  color: rgb(255, 193, 7);
+}
+
+.logo {
+  width: 80px;
+}
+
+.box-noticia {
+  margin-top: 20px;
+}
+
+.box-noticia .card-text {
+  margin: 0px;
+}
+.box-noticia .card-title {
+  margin: 0px;
+}
+.box-noticia .creditos {
+  color: #566069;
+}
+.card {
+  border: none;
+}
+
+.box-noticia .card-body {
+  padding: 10px;
+  background-color: white;
+}
+.btn-salvar {
+  background-color: #28c997;
+  border: #28c997;
+}
+.navbar-pesquisa {
+  background-color: #343a40 !important;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+#btnSalvar {
+  background-color: #28c997;
+  border: #28c997;
+}
+.titulo-nav {
+  color: aliceblue !important;
+}
+
+.favoritos {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: thin solid black;
+  background-color: #566069;
+}
+.aparecePesquisa,
+.favoritos > h4 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.favoritos > h4 {
+  display: block;
+  padding-top: 20px;
+}
+main {
+  background-color: rgb(255, 255, 255);
+}
+.btn-fontes {
+  width: 100%;
+  margin: 10px;
+}
+.btn-fonte {
+  border: none;
+  padding: 20px;
+  background-color: #566069;
+  color: #28c997;
+  width: 100%;
+  border: solid thin black;
+}
+button:hover {
+  color: rgb(255, 193, 7);
+}
+.btn-outline-success:hover {
+  background-color: rgb(255, 193, 7) !important;
+  border: rgb(255, 193, 7);
+  color: black;
+}
+
+.header {
+  background-color: #343a40;
+}
+@media screen and (min-width: 1026px) {
+  .nav-link {
+    padding-left: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1025px) and (min-width: 769px) {
+  .nav-link {
+    padding-left: 50px !important ;
+  }
+}
+@media screen and (max-width: 769px) {
+  .categoria {
+    display: none;
+  }
+}
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #343a40;
+  color: aliceblue;
+}

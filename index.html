@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/46060d9aa5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portal de Notícias</title>
+  </head>
+  <body>
+    <header class="header">
+      <header class="container">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand home" href="#"
+              ><img class="logo" src="img/r7-logo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link home" href="#"
+                    ><i class="fas fa-home"></i>
+                    <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Fontes
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item btn-bbc" href="#">BBC News</a>
+                    <a class="dropdown-item btn-cnn" href="#">CNN</a>
+                    <a class="dropdown-item btn-google" href="#">Google News</a>
+                    <a class="dropdown-item btn-globo" href="#">Globo</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  id="txtPesquisa"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  id="btnPesquisa"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </header>
+    <main>
+      <main class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <aside class="aside">
+              <div class="favoritos">
+                <h4>Pesquisas Salvas</h4>
+                <ul class="aparecePesquisa"></ul>
+              </div>
+              <div class="categoria">
+                <div class="btn-group-vertical btn-fontes">
+                  <button class="btn-fonte btn-bbc">BBC News</button>
+                  <button class="btn-fonte btn-cnn">CNN</button>
+                  <button class="btn-fonte btn-google">Google News</button>
+                  <button class="btn-fonte btn-globo">Globo</button>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="col-12 col-md-8 col-lg-8">
+            <div class="pesquisaFeita"></div>
+
+            <article class="box-noticia"></article>
+          </div>
+
+          <footer></footer>
+          <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+          ></script>
+          <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+          ></script>
+          <script src="index.js"></script>
+          <footer class="footer">
+            <footer class="container">
+              <div class="row">
+                <div class="col-4">
+                  <p></p>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+              </div>
+            </footer>
+          </footer>
+        </div>
+      </main>
+    </main>
+  </body>
+</html>
