@@ -8,6 +8,9 @@ a {
 a:hover {
   color: rgb(255, 193, 7);
 }
+.main {
+  background-color: rgb(209, 209, 209);
+}
 
 .logo {
   width: 80px;

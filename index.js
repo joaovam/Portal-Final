@@ -13,7 +13,7 @@ function exibeNoticia() {
     texto += `<div class="card  mb-3" style="max-width: 900px;">
     <div class="row no-gutters card-body">
       <div class="col-md-4">
-        <a href ="${noticia.url}"> <img
+        <a href ="${noticia.url}" target="_blank"> <img
           src="${noticia.urlToImage}"
           class="card-img"
           alt="..."
@@ -21,7 +21,7 @@ function exibeNoticia() {
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <a href ="${noticia.url}" ><h5 class="card-title">${
+          <a href ="${noticia.url}" target="_blank" ><h5 class="card-title">${
       noticia.title
     }</h5></a>
           <p class="card-text">
