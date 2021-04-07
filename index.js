@@ -1,4 +1,4 @@
-const API_KEY = "4825e0ece6554e4fa6feac0ac7ae26aa";
+const API_KEY = "XXX";
 
 function exibeNoticia() {
   let divTela = document.querySelector(".box-noticia");
